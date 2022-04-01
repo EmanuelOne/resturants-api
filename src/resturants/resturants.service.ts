@@ -3,7 +3,7 @@ import { Restaurant } from './Schemas/resturants.schema';
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
-import ApiFeatures from 'src/utils/apiFeature.utils';
+import ApiFeatures from '../utils/apiFeature.utils';
 
 @Injectable()
 export class RestaurantsService {
